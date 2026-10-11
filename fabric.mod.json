@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "borutomod",
+  "version": "${version}",
+  "name": "Boruto Mod",
+  "description": "Shinobi gear inspired by Boruto: Rasengan, Kunai, Chakra Scroll.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.borutomod.BorutoMod"] },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
